@@ -21,7 +21,7 @@
             super();
             this.name = studentname;
             this.name = studentID;
-            this.dep. = dep;
+            this.dep = dep;
             this.coursesEnrolled = new Arraylist<>();
         }
         
@@ -47,6 +47,6 @@
         
         @override
         public String toString() {
-            return "Student ["+studentID+" , "+studentName+" , "+dep.+"]";
+            return "Student ["+studentID+" , "+studentName+" , "+dep+"]";
         }
 }
