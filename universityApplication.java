@@ -2,8 +2,8 @@
 /**
  * Write a description of class Application here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Mohammed Nafis Hossain)
+ * @version (22/03/21)
  */
 public class universityApplication
 {
