@@ -2,8 +2,8 @@
 /**
  * Write a description of class student here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Frances Utomi)
+ * @version (22/03/2021)
  */
     /**
      * Constructor for objects of class student
