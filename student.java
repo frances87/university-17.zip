@@ -29,22 +29,27 @@ public class student
             this.dep. = dep.;
             this.courseEnrolled = new Arraylist<>();
         }
+        
         public String getStudentName() {
             return studentname;
         }
+        
         public int getStudentID() {
             return studentID;
         }
+        
         public String getDep.() {
             return dep.;
         }
-        public boolean enrollForCourse(Course s) {
-            if(!(courseEnrolled.contains(s))){
-                courseEnrolled.add(s);
+        
+        public boolean enrollForCourse(Course x) {
+            if(!(courseEnrolled.contains(x))){
+                courseEnrolled.add(x);
                 return true;
             }
             return false;
         }
+        
         @override
         public String toString() {
             return "Student ["+studentID+" , "+studentname+" , "+dep.+"]";

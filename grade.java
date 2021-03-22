@@ -9,13 +9,13 @@ public class grade
 {
     // instance variables - replace the example below with your own
     private Student s;
-    private Course s;
+    private Course x;
     private String grade;
     
     public Grade(Student s, Course s, String grade) {
         super();
         this.s = s;
-        this.s = s;
+        this.x = x;
         this.grade = grade;
     }
     
@@ -31,7 +31,7 @@ public class grade
         return s;
     }
     
-    public Course getS() {
+    public Course getX() {
         return s;
     }
     
