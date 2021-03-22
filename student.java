@@ -13,16 +13,16 @@
         // initialise instance variables
         private String studentname;
         private int studentID;
-        private String dep.;
+        private String dep;
         private ArrayList<Course> coursesEnrolled;
         private ArrayList<String> grades;
         
-        public Student(String studentname, int studentID, String dep.){
+        public Student(String studentname, int studentID, String dep){
             super();
             this.name = studentname;
             this.name = studentID;
-            this.dep. = dep.;
-            this.courseEnrolled = new Arraylist<>();
+            this.dep. = dep;
+            this.coursesEnrolled = new Arraylist<>();
         }
         
         public String getStudentName() {
@@ -34,7 +34,7 @@
         }
         
         public String getDep.() {
-            return dep.;
+            return dep;
         }
         
         public boolean enrollForCourse(Course x) {
