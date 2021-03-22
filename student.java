@@ -33,7 +33,7 @@
             return studentID;
         }
         
-        public String getDep.() {
+        public String getDep() {
             return dep;
         }
         
